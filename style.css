@@ -1,0 +1,26 @@
+.header-img {
+	width: 100px;
+	border-radius: 20px;
+}
+.header-container {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 99;
+}
+
+h1 {
+	color: black;
+}
+
+@media only screen and (max-width: 850px) {
+	.header-img{
+		width: 60px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.header-img{
+		width: 0px;
+	}
+}
